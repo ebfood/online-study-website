@@ -1,0 +1,331 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f3f5f7;
+  height: 6000px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w {
+  /* 这个是版心类 */
+  width: 1202px;
+  margin: auto;
+}
+
+.header {
+  height: 41px;
+  padding: 30px 0;
+}
+
+.logo {
+  float: left;
+  width: 196px;
+  height: 42px;
+  background-color: purple;
+  background: url(./images/logo.png);
+}
+
+.nav {
+  float: left;
+  padding-left: 70px;
+}
+
+.nav li {
+  float: left;
+  padding: 0 20px;
+}
+
+.nav li a {
+  display: block;
+  height: 42px;
+  line-height: 42px;
+  font-size: 18px;
+  color: #000;
+}
+
+.nav li:hover {
+  border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+  float: left;
+  height: 42px;
+  width: 412px;
+  margin-left: 70px;
+}
+
+.search input {
+  float: left;
+  height: 40px;
+  width: 340px;
+  border: 1px solid #00a4ff;
+  border-right: none;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.search button {
+  float: left;
+  height: 42px;
+  width: 50px;
+  border: 0;
+  background: url(./images/search.png);
+}
+
+.user {
+  float: left;
+  height: 42px;
+  margin-left: 30px;
+  line-height: 42px;
+  font-size: 14px;
+  color: #666;
+}
+
+.banner {
+  background-color: #1c036c;
+  height: 422px;
+}
+
+.banner .w {
+  height: 422px;
+  background: url(./images/banner2.png) no-repeat top center;
+}
+
+.bannerleft {
+  float: left;
+  height: 100%;
+  width: 151px;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.bannerleft ul li {
+  padding: 0 20px;
+  height: 46px;
+  line-height: 46px;
+  color: #fff;
+}
+
+.bannerleft ul li a {
+  float: left;
+}
+
+.bannerleft ul li span {
+  float: right;
+}
+
+.banneright {
+  float: right;
+  margin-top: 50px;
+  width: 230px;
+  height: 300px;
+  background-color: #fff;
+}
+
+.banneright .title {
+  height: 48px;
+  background-color: #9bceea;
+}
+
+.banneright .title h4 {
+  line-height: 48px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.banneright .history {
+  padding: 0 20px;
+}
+
+.banneright .history li {
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.banneright .history a {
+  display: block;
+}
+
+.banneright .history .name {
+  font-size: 14px;
+  color: black;
+}
+
+.banneright .history .curr {
+  font-size: 12px;
+  color: #666;
+}
+
+.banneright .history .all {
+  display: block;
+  width: 198px;
+  height: 39px;
+  background-color: #fff;
+  border: 1px solid #00a4ff;
+  color: #00a4ff;
+  text-align: center;
+  line-height: 39px;
+}
+
+.rcm {
+  height: 60px;
+  margin-top: 8px;
+  box-shadow: 2px 2px 4px -2px rgba(0, 0, 0, .2);
+}
+
+.rcm li {
+  float: left;
+  line-height: 60px;
+}
+
+.rcm h4 {
+  padding: 0 35px;
+  color: #00a4ff;
+}
+
+.rcm a {
+  padding: 0 35px;
+  border-left: 1px solid #bfbfbf;
+  font-size: 16px;
+  color: #000;
+}
+
+.course {
+  width: 1225px;
+  margin-top: 37px;
+  /* border: 1px solid red; */
+}
+
+.course .title {
+  height: 41px;
+}
+
+.course .title h3 {
+  float: left;
+  font-weight: 400;
+  font-size: 20px;
+  color: #494949;
+}
+
+.course .title span {
+  float: right;
+  padding-right: 34px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #494949
+}
+
+.course li {
+  float: left;
+  width: 229px;
+  height: 271px;
+  margin: 0 15px 15px 0;
+  background-color: #fff;
+}
+
+.course li img {
+  width: 100%;
+}
+
+.course li div {
+  height: 117px;
+  padding: 22px;
+}
+
+.course h5 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.course span {
+  font-size: 12px;
+  color: #ff7c2d;
+}
+
+.course p {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.footer {
+  height: 300px;
+  background-color: #fff;
+}
+
+.footer .logo {
+  float: none;
+}
+
+.footer .subleft {
+  float: left;
+  width: 400px;
+  padding: 33px 20px;
+}
+
+.footer .subleft p {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #666;
+}
+
+.footer .subleft a {
+  display: block;
+  width: 120px;
+  height: 36px;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 36px;
+  color: #00a4ff;
+  border: 1px solid #00a4ff;
+}
+
+.footer .subright {
+  float: right;
+  width: 700px;
+  height: 100%;
+  margin-top: 25px;
+}
+
+.footer .subright dl {
+  float: left;
+  margin-left: 145px;
+}
+
+.footer .subright dt {
+  margin-bottom: 8px;
+  font-weight: 400;
+  color: #666;
+}
+
+.footer .subright dd {
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.footer .subright a {
+  color: #666;
+}
